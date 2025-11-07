@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://huhuman.github.io/al-folio/sitemap.xml
+Sitemap: https://huhuman.github.io/sitemap.xml
