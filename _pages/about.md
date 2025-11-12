@@ -106,6 +106,40 @@ latest_posts:
   color: var(--about-strong);
 }
 
+@media (min-width: 768px) {
+  .about-panels__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1200px) {
+  .about-panels__grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 991px) {
+  .about-panels {
+    clear: both;
+    margin-top: 1.5rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .post .profile.float-left,
+  .post .profile.float-right {
+    float: none !important;
+    width: 100%;
+    margin: 0 auto 1.5rem auto;
+  }
+
+  .post .profile img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 [data-theme="dark"] .about-panels {
   --about-hero-border: rgba(255,255,255,0.1);
   --about-hero-bg: linear-gradient(135deg, rgba(40,32,25,0.95), rgba(29,28,39,0.98));
