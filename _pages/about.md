@@ -188,5 +188,6 @@ latest_posts:
         </li>
       </ul>
     </section>
+
   </div>
 </div>
