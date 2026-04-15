@@ -11,7 +11,7 @@ profile:
   more_info: >
     <p><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Illinois_Block_I.png" alt="UIUC logo" style="height:16px; width:11px; vertical-align:middle; margin-left:6px; margin-right:4px;"> Shun-Hsiang Hsu</p>
     <p>🎓 Ph.D. Student in Construction Engineering & Management</p>
-    <p>🏢 Computer Vision Engineer Intern @ Reconstruct Inc.</p>
+    <p>🏢 Incoming Software Engineering Intern (PhD) @ Google Cloud</p>
     <p>📍 Champaign, IL, USA</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -153,7 +153,7 @@ latest_posts:
     <section class="about-panels__card">
       <h3>About Me</h3>
       <p>I am a Ph.D. student at the University of Illinois Urbana-Champaign, specializing in computer vision, synthetic data generation, and 3D reconstruction for automated construction monitoring.</p>
-      <p>I also work as a Computer Vision Engineer Intern at <a href="https://reconstructinc.com/">Reconstruct Inc.</a>, where I develop production-level vision pipelines for large-scale 3D reconstruction and object retrieval (e.g., defect detection).</p>
+      <p>This summer, I will join <strong>Google Cloud</strong> as a Software Engineering Intern (PhD). I also work as a Computer Vision Engineer Intern at <a href="https://reconstructinc.com/">Reconstruct Inc.</a>, where I develop production-level vision pipelines for large-scale 3D reconstruction and object retrieval (e.g., defect detection).</p>
       <p>I was awarded the Government Fellowship for Studying Abroad (2024-2026) and have led both academic and industry-backed AI initiatives across the U.S. and Taiwan.</p>
     </section>
 
@@ -174,6 +174,10 @@ latest_posts:
     <section class="about-panels__card">
       <h3>Experience</h3>
       <ul class="about-panels__list">
+        <li>
+          <strong>Incoming Software Engineering Intern (PhD) | Google Cloud</strong>
+          Summer 2026
+        </li>
         <li>
           <strong>Computer Vision Engineer Intern | <a href="https://reconstructinc.com/">Reconstruct Inc.</a></strong>
           2023–present • Building robust 3D reconstruction pipelines for commercial deployments.
