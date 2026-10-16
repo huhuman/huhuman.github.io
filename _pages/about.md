@@ -2,17 +2,17 @@
 layout: about
 title: Home
 permalink: /
-subtitle: Ph.D. Student • <a href='https://raamac.cee.illinois.edu/'>RAAMAC Lab</a>, University of Illinois Urbana-Champaign • AI for Construction in Computer Vision
+subtitle: Machine Learning Research • Multimodal Learning • Computer Vision
+description: Shun-Hsiang Hsu is a UIUC Ph.D. student working on multimodal learning, computer vision, synthetic data, and LLM evaluation, with experience at Google and Reconstruct.
 
 profile:
   align: left
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p><img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Illinois_Block_I.png" alt="UIUC logo" style="height:16px; width:11px; vertical-align:middle; margin-left:6px; margin-right:4px;"> Shun-Hsiang Hsu</p>
-    <p>🎓 Ph.D. Student in Construction Engineering & Management</p>
-    <p>🏢 Incoming Software Engineering Intern (PhD) @ Google Cloud</p>
-    <p>📍 Champaign, IL, USA</p>
+    <p>Ph.D. Student · UIUC</p>
+    <p>Expected graduation: 2027</p>
+    <p>Champaign, Illinois</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -144,47 +144,41 @@ latest_posts:
 
 <div class="about-panels">
   <div class="about-panels__intro">
-    <p class="about-panels__eyebrow">Research & Practice</p>
-    <h2 class="about-panels__title">AI and Computer Vision for Construction and the Built Environment</h2>
-    <p>My research focuses on AI-enabled inspection workflows combining synthetic image generation, 3D reconstruction, and spatio-temporal modeling to transform visual data into actionable insights for progress tracking and decision-making.</p>
+    <h2 class="about-panels__title">Machine learning for visual understanding and reasoning</h2>
+    <p>I am a Ph.D. student in <strong>Construction Engineering and Management</strong> at the University of Illinois Urbana-Champaign, working in the <a href="https://raamac.cee.illinois.edu/">RAAMAC Lab</a>. My research spans <strong>multimodal learning, computer vision, and geometry-grounded synthetic data</strong>, with applications in construction and infrastructure inspection.</p>
+    <p>My work connects model and method development with controlled experiments, benchmarking, and data and training iteration. I also work on <strong>LLM evaluation and agent workflows</strong>, turning research ideas into usable systems.</p>
+    <p class="mb-0"><a href="{{ '/assets/pdf/Shun_Hsiang_Hsu_Resume.pdf' | relative_url }}">Resume (PDF)</a> · <a href="{{ '/publications/' | relative_url }}">Publications &amp; research</a> · <a href="mailto:hsus2@illinois.edu">Email</a></p>
   </div>
 
   <div class="about-panels__grid">
     <section class="about-panels__card">
-      <h3>About Me</h3>
-      <p>I am a Ph.D. student at the University of Illinois Urbana-Champaign, specializing in computer vision, synthetic data generation, and 3D reconstruction for automated construction monitoring.</p>
-      <p>This summer, I will join <strong>Google Cloud</strong> as a Software Engineering Intern (PhD). I also work as a Computer Vision Engineer Intern at <a href="https://reconstructinc.com/">Reconstruct Inc.</a>, where I develop production-level vision pipelines for large-scale 3D reconstruction and object retrieval (e.g., defect detection).</p>
-      <p>I was awarded the Government Fellowship for Studying Abroad (2024-2026) and have led both academic and industry-backed AI initiatives across the U.S. and Taiwan.</p>
+      <h3>Experience highlights</h3>
+      <ul class="about-panels__list">
+        <li>
+          <strong>Google · Software Engineering Intern (PhD)</strong>
+          Summer 2026 · LLM evaluation and skill-based agent systems.
+        </li>
+        <li>
+          <strong><a href="https://reconstructinc.com/">Reconstruct Inc.</a> · Computer Vision Engineer Intern</strong>
+          Jan. 2024–May 2026 · Vision and 3D reconstruction benchmarks, model adaptation, and active-learning iteration.
+        </li>
+        <li>
+          <strong>TryTech Co., Ltd. · Founder / Technical Lead</strong>
+          Jan. 2021–present · LLM applications and human-AI workflows.
+        </li>
+      </ul>
     </section>
 
     <section class="about-panels__card">
       <h3>Education</h3>
       <ul class="about-panels__list">
         <li>
-          <strong>Ph.D., Construction Engineering & Management</strong>
-          University of Illinois Urbana-Champaign • 2022–present
+          <strong>Ph.D., Construction Engineering and Management</strong>
+          University of Illinois Urbana-Champaign · 2022–present (expected 2027)
         </li>
         <li>
-          <strong>M.C.S., Computer Science</strong>
-          University of Illinois Urbana-Champaign • 2023–2024
-        </li>
-      </ul>
-    </section>
-
-    <section class="about-panels__card">
-      <h3>Experience</h3>
-      <ul class="about-panels__list">
-        <li>
-          <strong>Incoming Software Engineering Intern (PhD) | Google Cloud</strong>
-          Summer 2026
-        </li>
-        <li>
-          <strong>Computer Vision Engineer Intern | <a href="https://reconstructinc.com/">Reconstruct Inc.</a></strong>
-          2023–present • Building robust 3D reconstruction pipelines for commercial deployments.
-        </li>
-        <li>
-          <strong>Project Lead | <a href="https://www.aiengineer.tw/">NTUCE-NCREE ​AI Research Center</a></strong>
-          2020–2022 • Leading image-based defect inspection projects for tunnels, bridges, and buildings.
+          <strong>Master of Computer Science</strong>
+          University of Illinois Urbana-Champaign · 2023–2024
         </li>
       </ul>
     </section>
