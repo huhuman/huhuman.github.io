@@ -159,7 +159,7 @@ GEM
       date
     unicode-display_width (2.6.0)
     uri (1.0.4)
-    webrick (1.9.1)
+    webrick (1.9.2)
 
 PLATFORMS
   aarch64-linux
@@ -181,7 +181,7 @@ DEPENDENCIES
   jekyll-scholar (= 7.2.0)
   jekyll-sitemap (= 1.4.0)
   observer (= 0.1.2)
-  webrick (= 1.9.1)
+  webrick (= 1.9.2)
 
 BUNDLED WITH
    2.6.9

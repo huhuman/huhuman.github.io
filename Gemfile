@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 gem "jekyll", "4.4.1"
-gem "webrick", "1.9.1"
+gem "webrick", "1.9.2"
 gem "observer", "0.1.2"
 
 group :jekyll_plugins do
