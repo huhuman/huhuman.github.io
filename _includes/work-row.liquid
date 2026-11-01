@@ -1,0 +1,27 @@
+<article class="work-row" id="{{ include.project.id | escape }}">
+  {% if include.project.image %}
+    <div class="work-visual">
+      <img src="{{ include.project.image | relative_url }}" alt="{{ include.project.image_alt | escape }}" width="280" height="170" loading="lazy">
+    </div>
+  {% else %}
+    <div class="work-visual work-illustration work-illustration-{{ include.project.icon | escape }}" aria-hidden="true">
+      {% include icon.liquid name=include.project.icon %}
+    </div>
+  {% endif %}
+  <div class="work-copy">
+    <p class="work-context">{{ include.project.context | escape }}</p>
+    <h3>{{ include.project.title | escape }}</h3>
+    <p class="work-summary">{{ include.project.summary | escape }}</p>
+    {% include skill-tags.liquid skills=include.project.skills %}
+    {% if include.project.links %}
+      <div class="work-links" aria-label="Project resources">
+        {% for link in include.project.links %}
+          <a href="{{ link.url | escape }}">
+            {%- include icon.liquid name=link.icon -%}
+            <span>{{ link.label | escape }}</span></a
+          >
+        {% endfor %}
+      </div>
+    {% endif %}
+  </div>
+</article>

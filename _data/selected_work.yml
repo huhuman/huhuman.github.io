@@ -1,0 +1,43 @@
+- id: work-synthetic-data
+  title: Geometry-grounded synthetic data
+  context: Beyond Cracks · Research
+  summary: Controllable 3D defect geometry generates synthetic imagery, aligned masks, and physical attributes for visual recognition.
+  skills: [Synthetic data, 3D geometry, Semantic segmentation]
+  image: /assets/img/publication_preview/defectsynth_overview.png
+  image_alt: Examples of geometry-grounded synthetic concrete defects and their annotations
+  links:
+    - label: Project
+      url: https://huhuman.github.io/rhino-defect-synth/
+      icon: external
+
+- id: work-vision-language
+  title: Vision-language learning
+  context: VisualSiteDiary & VL-Con
+  summary: Vision-language models and domain-specific image–text data for captioning, retrieval, and construction reporting.
+  skills: [Vision-language models, Image retrieval, Few-shot prompting]
+  image: /assets/img/publication_preview/VL-Con.png
+  image_alt: Overview of the VL-Con construction vision-language dataset
+  links:
+    - label: VisualSiteDiary paper
+      url: https://doi.org/10.1016/j.autcon.2024.105483
+      icon: paper
+    - label: VL-Con paper
+      url: https://www.iaarc.org/publications/fulltext/145_ISARC_2024_Paper_243.pdf
+      icon: paper
+    - label: Code & data
+      url: https://github.com/huhuman/VL-Con
+      icon: github
+
+- id: work-llm-evaluation
+  title: LLM evaluation & agents
+  context: Google Cloud · Gemini Cloud Assist · Summer 2026
+  summary: Controlled autorater experiments, scoring rubrics, and agent skill-graph design for retrieval and orchestration.
+  skills: [LLM evaluation, Rubric design, Agent skill graphs]
+  icon: evaluation
+
+- id: work-applied-ai
+  title: Applied AI prototypes
+  context: TryTech
+  summary: Customer-support prototypes with retrieval, tool orchestration, and human handoff; separate visual-inspection pilots deployed on AWS.
+  skills: [Retrieval, Tool orchestration, Human handoff]
+  icon: workflow

@@ -1,0 +1,7 @@
+{% if include.skills and include.skills.size > 0 %}
+  <ul class="skill-tags" aria-label="Applied skills">
+    {% for skill in include.skills %}
+      <li>{{ skill | escape }}</li>
+    {% endfor %}
+  </ul>
+{% endif %}

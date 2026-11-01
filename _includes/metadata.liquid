@@ -17,7 +17,6 @@
 {% capture author_name %}{{ site.first_name }}{% if site.middle_name %} {{ site.middle_name }}{% endif %} {{ site.last_name }}{% endcapture %}
 
 <!-- Standard metadata -->
-<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title>
@@ -36,6 +35,7 @@
     {% endif %}
   {% else %}
     {{ title }}
+    {% if page.url == '/' %} | Machine Learning Research &amp; Engineering{% endif %}
   {% endif %}
 </title>
 <meta name="author" content="{{ author_name }}">
@@ -53,20 +53,21 @@
 {% endif %}
 
 {% if site.serve_og_meta %}
+  {% capture share_title %}{% if page.url == '/' %}{{ author_name | strip }} | Machine Learning Research & Engineering{% else %}{{ page.title }} | {{ author_name | strip }}{% endif %}{% endcapture %}
   <!-- OpenGraph -->
   <meta property="og:site_name" content="{{ title }}">
   <meta property="og:type" content="{% if is_blog_post %}article{% else %}website{% endif %}">
-  <meta property="og:title" content="{% if page.title %}{{ title }} | {{ page.title }}{% else %}{{ title }}{% endif %}">
+  <meta property="og:title" content="{{ share_title | strip | escape }}">
   <meta property="og:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url | remove_first: 'index.html' }}">
   <meta property="og:description" content="{{ page_description | escape }}">
   {% if page.og_image or site.og_image %}
     <meta property="og:image" content="{% if page.og_image %}{{ page.og_image }}{% else %}{{ site.og_image }}{% endif %}">
   {% endif %}
-  <meta property="og:locale" content="{{ site.lang }}">
+  <meta property="og:locale" content="en_US">
 
   <!-- Twitter card -->
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ title }}{% endif %}">
+  <meta name="twitter:title" content="{{ share_title | strip | escape }}">
   <meta name="twitter:description" content="{{ page_description | escape }}">
   {% if page.og_image or site.og_image %}
     <meta name="twitter:image" content="{% if page.og_image %}{{ page.og_image }}{% else %}{{ site.og_image }}{% endif %}">
@@ -238,6 +239,12 @@
           "name": {{ author_name | strip | jsonify }},
           "url": {{ '/' | absolute_url | jsonify }},
           "description": {{ page_description | jsonify }},
+          "knowsAbout": ["Multimodal learning", "Computer vision", "Synthetic data", "LLM evaluation"],
+          "alumniOf": {
+            "@type": "CollegeOrUniversity",
+            "name": "University of Illinois Urbana-Champaign",
+            "url": "https://illinois.edu/"
+          },
           "sameAs": {{ sameaslinks | jsonify }}
         }
       }
@@ -251,7 +258,7 @@
               "name": {{ author_name | strip | jsonify }}
           },
           "url": "{{ page.url | prepend: site.baseurl | prepend: site.url }}",
-          "@type": "{% if is_blog_post %}BlogPosting{% else %}WebSite{% endif %}",
+          "@type": "{% if is_blog_post %}BlogPosting{% else %}WebPage{% endif %}",
           "description": {{ page_description | jsonify }},
           "headline": {{ page.title | default: author_name | strip | jsonify }},
           {% if sameaslinks != blank %}
