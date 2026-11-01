@@ -1,1 +1,216 @@
-{"basics":{"name":"Shun-Hsiang Hsu","label":"Ph.D. Student at UIUC","email":"hsus2@illinois.edu","url":"https://huhuman.github.io","summary":"Machine learning research in multimodal learning, computer vision, geometry-grounded synthetic data, and LLM evaluation. Experience in controlled experiments, benchmarking, model adaptation, and research prototypes.","location":{"city":"Champaign","region":"Illinois","countryCode":"US"},"profiles":[{"network":"GitHub","username":"huhuman","url":"https://github.com/huhuman"},{"network":"LinkedIn","username":"shunhsianghsu","url":"https://www.linkedin.com/in/shunhsianghsu/"},{"network":"Google Scholar","username":"ZuBSYdwAAAAJ","url":"https://scholar.google.com/citations?user=ZuBSYdwAAAAJ"}]},"work":[{"name":"Google","position":"Software Engineering Intern (PhD)","url":"https://www.google.com/","location":"Sunnyvale, CA","startDate":"2026","endDate":"2026","summary":"Summer 2026 · LLM evaluation and skill-based agent systems.","highlights":["Designed controlled experiments and refined scoring rubrics for an LLM autorater, achieving over 90% repeated-evaluation score consistency and over 90% alignment with human ratings.","Designed a graph representation of agent skills to encode sequencing and dependencies for relationship-aware retrieval, orchestration, and skill-library health checks."]},{"name":"Reconstruct Inc.","position":"Computer Vision Engineer Intern","url":"https://reconstructinc.com/","location":"Champaign, IL (Hybrid)","startDate":"2024-01","endDate":"2026-05","summary":"Computer vision and 3D method evaluation, model adaptation, and training iteration.","highlights":["Built controlled image-matching and 3D reconstruction benchmarks under low-texture, repeated-pattern, sparse-view, and illumination-shift conditions to guide production method selection.","Integrated FiLM-conditioned camera-orientation cues into a Swin Transformer segmentation model and trained inspection models through an internal active-learning pipeline."]},{"name":"TryTech Co., Ltd.","position":"Founder / Technical Lead","startDate":"2021-01","location":"Taipei, Taiwan","summary":"LLM applications, human-AI workflows, and industry prototypes.","highlights":["Built a customer-support LLM backend prototype with retrieval, tool orchestration, transaction workflows, and human handoff.","Prototyped inspection applications with iOS and web interfaces and deployed machine-learning and custom algorithm modules on AWS using SAM and Lambda for industry pilots."]},{"name":"NCREE–NTUCE Joint AI Research Center","position":"Research Assistant","url":"https://www.aiengineer.tw/","startDate":"2020-05","endDate":"2022-07","location":"Taipei, Taiwan","highlights":["Led six industry research projects developing and deploying deep-learning inspection systems for concrete and steel structures, integrating visual recognition into field inspection and near-real-time reporting."]}],"education":[{"institution":"University of Illinois Urbana-Champaign","url":"https://illinois.edu/","area":"Construction Engineering and Management","studyType":"Ph.D. (expected 2027)","startDate":"2022-08","score":"4.0","courses":["Research: multimodal AI, computer vision, 3D vision, and geometry-grounded synthetic data.","Teaching Assistant, Computer Vision (Spring 2024); Government Fellowship for Studying Abroad (2024–2026)."]},{"institution":"University of Illinois Urbana-Champaign","url":"https://illinois.edu/","area":"Computer Science","studyType":"Master of Computer Science","startDate":"2023-08","endDate":"2024-12","score":"4.0"}],"skills":[{"name":"Programming","keywords":["Python","C++17","SQL"]},{"name":"Machine Learning","keywords":["PyTorch","Hugging Face Transformers","scikit-learn","OpenCV","Vision-language modeling","LLM/RAG evaluation"]},{"name":"Vision / 3D","keywords":["COLMAP","Structure-from-motion","Multi-view stereo","3D reconstruction","Synthetic data generation"]},{"name":"Systems","keywords":["CUDA","Linux","Docker","Git","AWS"]}]}
+{
+  "basics": {
+    "name": "Shun-Hsiang Hsu",
+    "label": "Ph.D. Student at UIUC",
+    "email": "hsus2@illinois.edu",
+    "url": "https://huhuman.github.io",
+    "summary": "Machine learning research in multimodal learning, computer vision, geometry-grounded synthetic data, and LLM evaluation. Experience in controlled experiments, benchmarking, model adaptation, and research prototypes.",
+    "location": {
+      "city": "Champaign",
+      "region": "Illinois",
+      "countryCode": "US"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "huhuman",
+        "url": "https://github.com/huhuman"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "shunhsianghsu",
+        "url": "https://www.linkedin.com/in/shunhsianghsu/"
+      },
+      {
+        "network": "Google Scholar",
+        "username": "ZuBSYdwAAAAJ",
+        "url": "https://scholar.google.com/citations?user=ZuBSYdwAAAAJ"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Google",
+      "position": "Software Engineering Intern (PhD)",
+      "url": "https://www.google.com/",
+      "location": "Sunnyvale, CA",
+      "startDate": "2026",
+      "endDate": "2026",
+      "summary": "Summer 2026 · LLM evaluation and skill-based agent systems.",
+      "highlights": [
+        "Designed controlled experiments and refined scoring rubrics for an LLM autorater, achieving over 90% repeated-evaluation score consistency and over 90% alignment with human ratings.",
+        "Designed a graph representation of agent skills to encode sequencing and dependencies for relationship-aware retrieval, orchestration, and skill-library health checks."
+      ],
+      "anchor": "experience-google",
+      "period": "Summer 2026",
+      "brief": [
+        "LLM autorater experiments and rubrics: over 90% repeated-score consistency and over 90% alignment with human ratings.",
+        "Designed agent skill graphs for sequencing, retrieval, and orchestration."
+      ],
+      "skills": ["Experimental design", "LLM autorating"],
+      "division": "Google Cloud",
+      "team": "Gemini Cloud Assist"
+    },
+    {
+      "name": "Reconstruct Inc.",
+      "position": "Computer Vision Engineer Intern",
+      "url": "https://reconstructinc.com/",
+      "location": "Champaign, IL (Hybrid)",
+      "startDate": "2024-01",
+      "endDate": "2026-05",
+      "summary": "Computer vision and 3D method evaluation, model adaptation, and training iteration.",
+      "highlights": [
+        "Built controlled image-matching and 3D reconstruction benchmarks under low-texture, repeated-pattern, sparse-view, and illumination-shift conditions to guide production method selection.",
+        "Integrated FiLM-conditioned camera-orientation cues into a Swin Transformer segmentation model and trained inspection models through an internal active-learning pipeline."
+      ],
+      "anchor": "experience-reconstruct",
+      "period": "Jan 2024 – May 2026",
+      "brief": [
+        "Benchmarked image matching and 3D reconstruction under challenging visual conditions.",
+        "Adapted Swin segmentation with FiLM orientation cues; trained models through the existing active-learning pipeline."
+      ],
+      "skills": ["3D reconstruction", "Swin Transformer", "FiLM"]
+    },
+    {
+      "name": "TryTech Co., Ltd.",
+      "position": "Founder / Technical Lead",
+      "startDate": "2021-01",
+      "location": "Taipei, Taiwan",
+      "summary": "LLM applications, human-AI workflows, and industry prototypes.",
+      "highlights": [
+        "Built a customer-support LLM backend prototype with retrieval, tool orchestration, transaction workflows, and human handoff.",
+        "Prototyped inspection applications with iOS and web interfaces and deployed machine-learning and custom algorithm modules on AWS using SAM and Lambda for industry pilots."
+      ],
+      "anchor": "experience-trytech",
+      "period": "Jan 2021 – present",
+      "brief": [
+        "Built customer-support LLM prototypes with retrieval, tools, transactions, and human handoff.",
+        "Developed inspection applications and deployed AWS SAM/Lambda modules for industry pilots."
+      ],
+      "skills": ["AWS SAM", "AWS Lambda"]
+    },
+    {
+      "name": "NCREE–NTUCE Joint AI Research Center",
+      "position": "Research Assistant",
+      "url": "https://www.aiengineer.tw/",
+      "startDate": "2020-05",
+      "endDate": "2022-07",
+      "location": "Taipei, Taiwan",
+      "highlights": [
+        "Led six industry research projects developing and deploying deep-learning inspection systems for concrete and steel structures, integrating visual recognition into field inspection and near-real-time reporting."
+      ],
+      "anchor": "experience-ncree",
+      "period": "May 2020 – Jul 2022",
+      "brief": [
+        "Led six industry research projects on deep-learning inspection of concrete and steel structures.",
+        "Integrated visual recognition into field inspection and near-real-time reporting."
+      ],
+      "skills": ["Deep learning", "Visual inspection"]
+    }
+  ],
+  "research": [
+    {
+      "name": "Geometry-Grounded Synthetic Data for Visual Recognition",
+      "summary": "Parameterized 3D defect models generate rendered imagery, pixel-level masks, and physical defect attributes without manual annotation.",
+      "highlights": [
+        "Developed a synthetic-data framework that derives supervision directly from controllable defect geometry.",
+        "Generated 72K synthetic crack images and evaluated transfer across three public real-image segmentation benchmarks; realism enhancement improved zero-shot IoU by 3.7–13.6 points.",
+        "Developing a CAD-referenced extension for multi-view appearance and geometry representations, matching, and few-shot asset recognition."
+      ],
+      "url": "https://huhuman.github.io/rhino-defect-synth/",
+      "keywords": ["Synthetic data", "3D geometry", "Semantic segmentation", "Synthetic-to-real transfer"]
+    },
+    {
+      "name": "Vision-Language Learning for Visual Reporting and Reasoning",
+      "summary": "Vision-language models and datasets for generating and evaluating reports from visual observations.",
+      "highlights": [
+        "Co-developed VisualSiteDiary, a detector-free vision-language Transformer for construction photolog captioning and image retrieval (equal contribution).",
+        "Developed VL-Con, a construction vision-language dataset and few-shot prompting framework using in-domain visual-text demonstrations.",
+        "Evaluated single- and multi-agent vision-language workflows for inspection reporting, including model-generated self-assessment to identify low-quality outputs."
+      ],
+      "url": "/publications/",
+      "keywords": ["Vision-language models", "Image captioning", "Few-shot prompting", "LLM self-evaluation"]
+    }
+  ],
+  "projects": [
+    {
+      "name": "LLM Evaluation and Agent Workflows",
+      "entity": "Google",
+      "summary": "Controlled experiments and rubric iteration for an autorater of troubleshooting hypotheses; agent skill-graph design.",
+      "highlights": [
+        "Compared scoring formulations and rubric-grounded prompts, using disagreement analysis to refine the evaluator.",
+        "Achieved over 90% repeated-evaluation score consistency and over 90% alignment with human ratings on the evaluated tasks.",
+        "Designed a graph representation of skill sequencing and dependencies for relationship-aware retrieval, orchestration, and library checks."
+      ],
+      "url": "/#work-llm-evaluation",
+      "keywords": ["LLM evaluation", "Experimental design", "Agent skills"],
+      "division": "Google Cloud",
+      "team": "Gemini Cloud Assist"
+    },
+    {
+      "name": "Vision Model Adaptation and Benchmarking",
+      "entity": "Reconstruct Inc.",
+      "summary": "Controlled benchmarks and model adaptation for infrastructure and facility imagery.",
+      "highlights": [
+        "Compared image-matching and 3D reconstruction methods under low-texture, repeated-pattern, sparse-view, and illumination-shift conditions.",
+        "Integrated FiLM-conditioned camera-orientation cues into Swin Transformer segmentation and extended inspection-specific object classes.",
+        "Trained and iterated on domain-specific recognition models using the company's existing active-learning pipeline."
+      ],
+      "url": "/#experience-reconstruct",
+      "keywords": ["Image matching", "3D reconstruction", "Swin Transformer", "FiLM", "Active learning"]
+    },
+    {
+      "name": "Applied AI Prototypes and Human Handoff",
+      "entity": "TryTech Co., Ltd.",
+      "summary": "Customer-support prototype integrating retrieval, tools, backend transactions, and human escalation.",
+      "highlights": [
+        "Built the LLM backend and agent-console handoff for an omnichannel support prototype.",
+        "Developed conversation-analysis workflows and an embedding-based classifier for identifying effective service utterances.",
+        "In separate inspection projects, built iOS and web interfaces and deployed modules on AWS using SAM and Lambda for industry pilots."
+      ],
+      "url": "/#work-applied-ai",
+      "keywords": ["Retrieval", "Tool orchestration", "Human-AI workflows", "Embeddings", "AWS"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Illinois Urbana-Champaign",
+      "url": "https://illinois.edu/",
+      "area": "Construction Engineering and Management",
+      "studyType": "Ph.D. (expected 2027)",
+      "startDate": "2022-08",
+      "score": "4.0",
+      "courses": [
+        "Research: multimodal AI, computer vision, 3D vision, and geometry-grounded synthetic data.",
+        "Teaching Assistant, Computer Vision (Spring 2024); Government Fellowship for Studying Abroad (2024–2026)."
+      ]
+    },
+    {
+      "institution": "University of Illinois Urbana-Champaign",
+      "url": "https://illinois.edu/",
+      "area": "Computer Science",
+      "studyType": "Master of Computer Science",
+      "startDate": "2023-08",
+      "endDate": "2024-12",
+      "score": "4.0"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming",
+      "keywords": ["Python", "C++17", "SQL"]
+    },
+    {
+      "name": "Machine Learning",
+      "keywords": ["PyTorch", "Hugging Face Transformers", "scikit-learn", "OpenCV", "Vision-language modeling", "LLM/RAG evaluation"]
+    },
+    {
+      "name": "Vision / 3D",
+      "keywords": ["COLMAP", "Structure-from-motion", "Multi-view stereo", "3D reconstruction", "Synthetic data generation"]
+    },
+    {
+      "name": "Systems",
+      "keywords": ["CUDA", "Linux", "Docker", "Git", "AWS"]
+    }
+  ]
+}
